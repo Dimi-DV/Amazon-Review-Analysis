@@ -19,7 +19,6 @@ This project focuses on scraping reviews from any Amazon product, converting the
     ```
     pip install -r requirements.txt
     ```
-(Note: You might want to create a `requirements.txt` file that lists all the necessary packages.)
 
 ## Usage
 
@@ -63,7 +62,7 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
 ## Acknowledgements
 
