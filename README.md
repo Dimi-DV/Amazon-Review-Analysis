@@ -29,13 +29,13 @@ This code is provided for educational and informational purposes only. Web scrap
 ### Amazon Review Scraper
 To scrape Amazon reviews:
 ```
-python amazon_review_bot_v5.py
+python review_scraper.py
 ```
 
 ### Embedding and Clustering
 To convert reviews into embeddings, cluster them, and visualize the clusters:
 ```
-python embedding_clustering_v7_sentencetransformer.py
+python review_analyzer.py
 ```
 
 ## Scripts Overview
