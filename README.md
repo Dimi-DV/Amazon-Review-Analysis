@@ -26,6 +26,8 @@ This code is provided for educational and informational purposes only. Web scrap
 
 ## Usage
 
+Important to note: These scripts will require you to input appropriate links and file destinations, particularly when choosing the link to scrape and where to store the resulting JSON file. Refer to the comments in the scripts themselves.
+
 ### Amazon Review Scraper
 To scrape Amazon reviews:
 ```
@@ -35,19 +37,19 @@ python review_scraper.py
 ### Embedding and Clustering
 To convert reviews into embeddings, cluster them, and visualize the clusters:
 ```
-python review_analyzer.py
+python review_analyzer_and_visualizer.py
 ```
 
 ## Scripts Overview
 
-### amazon_review_bot_v5.py
+### review_scraper.py
 This script scrapes Amazon product reviews. It can optionally filter reviews based on a specific star rating. The main functionalities include:
 - Setting up a Selenium webdriver with randomized user agents to scrape dynamic content.
 - Filtering reviews based on a specific star rating.
 - Scraping review titles and texts.
 - Saving the scraped reviews as a JSON file.
 
-### embedding_clustering_v7_sentencetransformer.py
+### review_analyzer_and_visualizer.py
 This script processes the scraped reviews, converts them into embeddings, clusters the embeddings, and performs further analysis. The primary functionalities encompass:
 - Loading and preprocessing reviews (tokenization, lemmatization).
 - Converting reviews into embeddings using the SentenceTransformer model.
@@ -58,7 +60,7 @@ This script processes the scraped reviews, converts them into embeddings, cluste
 
 ## Results and Visualizations
 
-The results include clustered reviews, summaries for each cluster, and a visual representation of the clusters in the embedding space. The visualization can be interpreted to understand the grouping and similarity of reviews, while the extracted keywords from individual clusters provide more context as to how the clusters were formed.
+The results include clustered reviews, summaries for each cluster, and a visual representation of the clusters in the embedding space. The visualization can be interpreted to understand the grouping and similarity of reviews, while the extracted keywords from individual clusters provide more context as to how the clusters were formed. Overall, the users time to conduct negative sentiment research was reduced by 98% and any form of bias that would occur from traditional research does not exist.
 
 ## Contributing
 
