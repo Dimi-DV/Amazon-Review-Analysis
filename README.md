@@ -58,7 +58,7 @@ This script processes the scraped reviews, converts them into embeddings, cluste
 
 ## Results and Visualizations
 
-The results include clustered reviews, summaries for each cluster, and a visual representation of the clusters in the embedding space. The visualization can be interpreted to understand the grouping and similarity of reviews.
+The results include clustered reviews, summaries for each cluster, and a visual representation of the clusters in the embedding space. The visualization can be interpreted to understand the grouping and similarity of reviews, while the extracted keywords from individual clusters provide more context as to how the clusters were formed.
 
 ## Contributing
 
